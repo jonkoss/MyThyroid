@@ -1,0 +1,109 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:fillViewport="true">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0099cc"
+    tools:context=".New_Entry">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/DateTxtView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Date"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/ChangeDateBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/DateChange" />
+
+        <EditText
+            android:id="@+id/tshEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number|numberDecimal"
+            android:hint="TSH" />
+
+        <EditText
+            android:id="@+id/ft3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="FT3"
+            android:inputType="number|numberDecimal" />
+
+        <EditText
+            android:id="@+id/ft3_lower_value"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/FT3_Lower"
+            android:inputType="number|numberDecimal" />
+
+        <EditText
+            android:id="@+id/ft3_upper_value"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/FT3_upper"
+            android:inputType="number|numberDecimal" />
+
+        <EditText
+            android:id="@+id/ft4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Ft4"
+            android:inputType="number|numberDecimal" />
+
+        <EditText
+            android:id="@+id/ft4_lower_value"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/FT4_Lower"
+            android:inputType="number|numberDecimal" />
+
+        <EditText
+            android:id="@+id/ft4_upper_value"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number|numberDecimal"
+            android:hint="@string/FT4_upper" />
+
+        <EditText
+            android:id="@+id/constitution"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="@string/Feeling" />
+
+        <EditText
+            android:id="@+id/comment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/Dosage"
+            android:inputType="textPersonName" />
+        <Button
+            android:id="@+id/addBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/addButton" />
+    </LinearLayout>
+
+</RelativeLayout>
+</ScrollView>

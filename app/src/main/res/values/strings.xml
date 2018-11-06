@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="app_name">MyThyroid</string>
+
+    <string name="action_settings">Einstellungen</string>
+
+    <string name="title_activity_new__entry">Neuer Eintrag</string>
+
+    <string name="Accept_Button_Disclaimer">Akzeptieren</string>
+
+    <string name="Deny_Button_Disclaimer">Ablehnen</string>
+
+    <string name="export_excel">Möchten Sie die Daten nach Excel exportieren?</string>
+
+    <string name="Yes">Ja</string>
+
+    <string name="No">Nein</string>
+
+    <string name="Welcome">Willkommen"</string>
+
+    <string name="To_add_new">Um einen neuen Eintrag zu erstellen, klicke das + Symbol unten rechts.</string>
+
+    <string name="Error_no_value">"Alle FT3 oder FT4 Werte müssen einen Wert haben! Bitte kontrolliere das in KEINEM Feld für FT3 oder FT4 \"Kein Wert\" steht."</string>
+
+    <string name="Date">Datum"</string>
+
+    <string name="DateChange">Datum ändern"</string>
+
+    <string name="FT3_upper">FT3 obere Norm"</string>
+
+    <string name="FT3_Lower">FT3 untere Norm"</string>
+
+    <string name="FT4_upper">FT4 obere Norm"</string>
+
+    <string name="FT4_Lower">FT4 untere Norm"</string>
+
+    <string name="Feeling">Wie ist das Befinden?"</string>
+
+    <string name="Dosage">Aktuelle Dosierung oder Kommentar"</string>
+
+    <string name="addButton">Hinzufügen"</string>
+
+    <string name="title_activity_disclaimer">Disclaimer</string>
+
+    <string name="Disclaimer">"Der Inhalt dieser App ist ausschließlich zu Informationszwecken bestimmt.
+Die Informationen stellen in keiner Weise Ersatz für professionelle Beratungen oder Behandlungen durch ausgebildete und anerkannte Ärzte dar.
+Ich fordere alle Benutzer mit Gesundheitsproblemen dazu auf, im Bedarfsfall immer einen Arzt aufzusuchen. Wenn Sie bezüglich Ihrer Gesundheit Fragen haben, raten ich, sich an den Arzt Ihres Vertrauens zu wenden, anstatt Behandlungen eigenständig zu beginnen, zu verändern oder abzusetzen.
+Der Inhalt dieser App kann und darf nicht für die Erstellung eigenständiger Diagnosen oder für die Auswahl und Anwendung von Behandlungsmethoden verwendet werden.
+Für Schäden oder Unannehmlichkeiten, die durch den Gebrauch oder Missbrauch unserer Informationen entstehen, kann der Herausgeber der App nicht zur Verantwortung gezogen werden - weder direkt noch indirekt. Mit Betätigen des Akzeptieren Buttons bestätige das ich die oben genannten Informationen gelesen, verstanden und akzeptiert habe. Dieser Text und der Disclaimer kann jederzeit unter http://jfrewert.de/?page_id=473 eingesehen werden."</string>
+
+    <string name="refresh">Aktualisieren</string>
+    <string name="delete">Entfernen</string>
+    <string name="export_successfully">Erfolgreich exportiert nach </string>
+    <string name="Share_file">Datei teilen</string>
+    <string name="MyThyroid_Data">MyThyroid_Daten.xls</string>
+
+    <string name="No_Value">Kein Wert</string>
+    <string name="Please_change_date">Bitte ändern Sie das Datum!</string>
+    <string name="Must_contain_entry">Dieses Feld darf nicht leer sein!</string>
+    <string name="really_delete">Möchten Sie den Eintrag wirklich entfernen?</string>
+
+    <string name="title_activity_info">Info und Excel export</string>
+    <string name="coming_soon">Coming soon:\n-Zeitlicher Verlauf als Graph\n\nDisclaimer\nDer Inhalt dieser App ist ausschließlich zu Informationszwecken bestimmt. Die Informationen stellen in keiner Weise Ersatz für professionelle Beratungen oder Behandlungen durch ausgebildete und anerkannte Ärzte dar. Ich fordere alle Benutzer mit Gesundheitsproblemen dazu auf, im Bedarfsfall immer einen Arzt aufzusuchen. Wenn Sie bezüglich Ihrer Gesundheit Fragen haben, raten ich, sich an den Arzt Ihres Vertrauens zu wenden, anstatt Behandlungen eigenständig zu beginnen, zu verändern oder abzusetzen. Der Inhalt dieser App kann und darf nicht für die Erstellung eigenständiger Diagnosen oder für die Auswahl und Anwendung von Behandlungsmethoden verwendet werden. Für Schäden oder Unannehmlichkeiten, die durch den Gebrauch oder Missbrauch unserer Informationen entstehen, kann der Herausgeber der App nicht zur Verantwortung gezogen werden - weder direkt noch indirekt. Dieser Text und der Disclaimer kann jederzeit unter http://jfrewert.de/?page_id=473 eingesehen werden.</string>
+    <string name="Back">Zurück</string>
+    <string name="Export_excel">Excel export</string>
+
+
+
+</resources>

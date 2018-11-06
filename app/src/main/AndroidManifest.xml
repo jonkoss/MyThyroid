@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="jonas.mythyroid">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="MyThyroid"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:replace="label">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".New_Entry"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_new__entry"
+            android:theme="@style/FullscreenTheme" />
+        <activity android:name=".ShowDetails" />
+        <activity
+            android:name=".Disclaimer"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="MyThyroid"
+            android:theme="@style/FullscreenTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ShowPlot" />
+        <activity
+            android:name=".InfoActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_info"
+            android:theme="@style/FullscreenTheme"></activity>
+    </application>
+
+</manifest>

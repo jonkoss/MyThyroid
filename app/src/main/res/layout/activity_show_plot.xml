@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="jonas.mythyroid.ShowPlot">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <CheckBox
+            android:id="@+id/checkBoxFt3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:text="FT3      "
+            android:checked="true"
+            android:textColor="#FF0000"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/checkBoxFt3"
+            android:text="     %" />
+
+        <CheckBox
+            android:id="@+id/checkBoxFt4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/checkBoxFt3"
+            android:checked="true"
+            android:textColor="#0000FF"
+            android:text="FT4" />
+        <com.jjoe64.graphview.GraphView
+            android:id="@+id/chart"
+            android:layout_below="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

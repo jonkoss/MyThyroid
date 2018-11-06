@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:background="#0099cc"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/DateTxtViewDetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Date"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/ChangeDateBtnDetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/DateChange" />
+
+        <EditText
+            android:id="@+id/tshEditDetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="TSH"
+            android:inputType="number|numberDecimal" />
+
+        <SeekBar
+            android:id="@+id/seekbarFt3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:progress="50"
+            android:progressDrawable="@drawable/myseekbar"
+            android:splitTrack="false"
+            android:thumb="@drawable/custom_thumb" />
+
+        <TextView
+            android:id="@+id/tvFT3PercentageProgressBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/ft3Detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="FT3"
+            android:inputType="number|numberDecimal" />
+
+        <EditText
+            android:id="@+id/ft3_lower_valueDetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/FT3_Lower"
+            android:inputType="number|numberDecimal" />
+
+        <EditText
+            android:id="@+id/ft3_upper_valueDetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/FT3_upper"
+            android:inputType="number|numberDecimal" />
+
+        <SeekBar
+            android:id="@+id/seekbarFt4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:progress="50"
+            android:progressDrawable="@drawable/myseekbar"
+            android:splitTrack="false"
+            android:thumb="@drawable/custom_thumb" />
+
+        <TextView
+            android:id="@+id/tvFT4PercentageProgressBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/ft4Detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Ft4"
+            android:inputType="number|numberDecimal" />
+
+        <EditText
+            android:id="@+id/ft4_lower_valueDetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/FT4_Lower"
+            android:inputType="number|numberDecimal" />
+
+        <EditText
+            android:id="@+id/ft4_upper_valueDetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/FT4_upper"
+            android:inputType="number|numberDecimal" />
+
+        <EditText
+            android:id="@+id/constitutionDetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/Feeling"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/commentDetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/Dosage"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/refresh"
+            android:id="@+id/btnUpdate"
+            android:layout_below="@+id/etSurnameDetail"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/delete"
+            android:id="@+id/btnDelete"
+            android:layout_below="@+id/etSurnameDetail"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+    </LinearLayout>
+</RelativeLayout>
+</ScrollView>
